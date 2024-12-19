@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+isaacsim = "==4.2.0.2"
+isaacsim-extscache-physics = "==4.2.0.2"
+isaacsim-extscache-kit = "==4.2.0.2"
+isaacsim-extscache-kit-sdk = "==4.2.0.2"
+omniverse-kit = "*"
+flake8 = "*"
+black = "*"
+scipy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

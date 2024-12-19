@@ -55,10 +55,10 @@ extract_python_exe() {
     # check if using conda
     if ! [[ -z "${CONDA_PREFIX}" ]]; then
         # use conda python
-        local python_exe=${CONDA_PREFIX}/bin/python
+        local python_exe=/home/jakub/machine_learning/omniverse/hardkill_omniverse/.venv/bin/python3
     else
         # use kit python
-        local python_exe=${ISAACLAB_PATH}/_isaac_sim/python.sh
+        local python_exe=/home/jakub/machine_learning/omniverse/hardkill_omniverse/.venv/bin/python3
 
     if [ ! -f "${python_exe}" ]; then
             # note: we need to check system python for cases such as docker
